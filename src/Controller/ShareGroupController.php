@@ -1,19 +1,29 @@
 <?php
-
 namespace App\Controller;
-
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use App\Entity\ShareGroup;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-
-class ShareGroupController extends AbstractController
+use Symfony\Component\HttpFoundation\Request;
+/**
+ * Class ShareGroupController
+ * @package App\Controller
+ * @Route("/share_group")
+ */
+class ShareGroupController extends BaseController
 {
     /**
-     * @Route("/sharegroup", name="sharegroup")
+     * @Route("/", name="share_group", methods="GET")
+     * @param Request $request
+     * @return Response
      */
-    public function index()
+    public function index(Request $request): Response
     {
-        return $this->render('sharegroup/index.html.twig', [
-            'controller_name' => 'SharegroupController',
-        ]);
+        $sharegroup = $this->getDoctrine()->getRepository(ShareGroup::class)
+            ->createQueryBuilder('c')
+            ->getQuery()
+            ->getArrayResult();
+        if ($request->isXmlHttpRequest()){
+            return $this->json($sharegroup);
+        }
     }
 }

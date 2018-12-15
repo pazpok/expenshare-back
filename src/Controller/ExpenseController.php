@@ -1,19 +1,29 @@
 <?php
-
 namespace App\Controller;
-
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-
-class ExpenseController extends AbstractController
+use App\Entity\Expense;
+/**
+ * Class ExpenseController
+ * @package App\Controller
+ * @Route("/expense")
+ */
+class ExpenseController extends BaseController
 {
     /**
-     * @Route("/expense", name="expense")
+     * @Route("/", name="expense", methods="GET")
+     * @param Request $request
+     * @return Response
      */
-    public function index()
+    public function index(Request $request): Response
     {
-        return $this->render('expense/index.html.twig', [
-            'controller_name' => 'ExpenseController',
-        ]);
+        $expense = $this->getDoctrine()->getRepository(Expense::class)
+            ->createQueryBuilder('c')
+            ->getQuery()
+            ->getArrayResult();
+        if ($request->isXmlHttpRequest()){
+            return $this->json($expense);
+        }
     }
 }

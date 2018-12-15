@@ -1,19 +1,29 @@
 <?php
-
 namespace App\Controller;
-
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
+use App\Entity\Debt;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
-
-class DebtController extends AbstractController
+/**
+ * Class DebtController
+ * @package App\Controller
+ * @Route("/debt")
+ */
+class DebtController extends BaseController
 {
     /**
-     * @Route("/debt", name="debt")
+     * @Route("/", name="debt", methods="GET")
+     * @param Request $request
+     * @return Response
      */
-    public function index()
+    public function index(Request $request): Response
     {
-        return $this->render('debt/index.html.twig', [
-            'controller_name' => 'DebtController',
-        ]);
+        $debt = $this->getDoctrine()->getRepository(Debt::class)
+            ->createQueryBuilder('c')
+            ->getQuery()
+            ->getArrayResult();
+        if ($request->isXmlHttpRequest()){
+            return $this->json($debt);
+        }
     }
 }
