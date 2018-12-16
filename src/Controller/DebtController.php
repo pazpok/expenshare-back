@@ -19,9 +19,8 @@ class DebtController extends BaseController
     public function index(Request $request): Response
     {
         $debt = $this->getDoctrine()->getRepository(Debt::class)
-            ->createQueryBuilder('c')
-            ->getQuery()
-            ->getArrayResult();
+            ->findAll();
+
         if ($request->isXmlHttpRequest()){
             return $this->json($debt);
         }

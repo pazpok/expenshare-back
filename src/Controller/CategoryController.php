@@ -10,6 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 /**
  * Class CategoryController
  * @package App\Controller
+ * @Route("/category")
  */
 class CategoryController extends BaseController
 {
@@ -21,9 +22,8 @@ class CategoryController extends BaseController
     public function index(Request $request): Response
     {
         $category = $this->getDoctrine()->getRepository(Category::class)
-            ->createQueryBuilder('c')
-            ->getQuery()
-            ->getArrayResult();
+            ->findAll();
+
         if ($request->isXmlHttpRequest()){
             return $this->json($category);
         }

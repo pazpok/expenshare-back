@@ -19,9 +19,8 @@ class PersonController extends BaseController
     public function index(Request $request): Response
     {
         $person = $this->getDoctrine()->getRepository(Person::class)
-            ->createQueryBuilder()
-            ->getQuery()
-            ->getArrayResult();
+            ->findAll();
+
         if ($request->isXmlHttpRequest()){
             return $this->json($person);
         }
