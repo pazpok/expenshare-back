@@ -25,5 +25,6 @@ class PersonController extends BaseController
         if ($request->isXmlHttpRequest()){
             return $this->json($person);
         }
+        return $this->render('base.html.twig');
     }
 }

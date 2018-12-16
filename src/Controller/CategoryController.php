@@ -27,5 +27,6 @@ class CategoryController extends BaseController
         if ($request->isXmlHttpRequest()){
             return $this->json($category);
         }
+        return $this->render('base.html.twig');
     }
 }

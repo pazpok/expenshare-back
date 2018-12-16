@@ -25,5 +25,6 @@ class ExpenseController extends BaseController
         if ($request->isXmlHttpRequest()){
             return $this->json($expense);
         }
+        return $this->render('base.html.twig');
     }
 }

@@ -25,5 +25,6 @@ class ShareGroupController extends BaseController
         if ($request->isXmlHttpRequest()){
             return $this->json($sharegroup);
         }
+        return $this->render('base.html.twig');
     }
 }

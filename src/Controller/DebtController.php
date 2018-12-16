@@ -25,5 +25,6 @@ class DebtController extends BaseController
         if ($request->isXmlHttpRequest()){
             return $this->json($debt);
         }
+        return $this->render('base.html.twig');
     }
 }
