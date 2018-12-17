@@ -1,0 +1,45 @@
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/category
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-17T111238.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module3/Projet/traouve/public/traobject
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-17T111158.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/category
+Accept: */*
+Cache-Control: no-cache
+'X-Requested-With': 'XMLHttpRequest'
+
+<> 2018-12-17T111118.200.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person
+Accept: */*
+Cache-Control: no-cache
+'X-Requested-With': 'XMLHttpRequest'
+
+<> 2018-12-17T111102.200.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/debt
+Accept: */*
+Cache-Control: no-cache
+'X-Requested-With': 'XMLHttpRequest'
+
+<> 2018-12-17T110911.200.html
+
+###
+
