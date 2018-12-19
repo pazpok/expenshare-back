@@ -1,45 +1,332 @@
-GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/category
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/expense/group/digital_campus
 Accept: */*
 Cache-Control: no-cache
 X-Requested-With: XMLHttpRequest
 
-<> 2018-12-17T111238.200.json
-
-###
-
-GET http://127.0.0.1/dcdev/CoursDC/Module3/Projet/traouve/public/traobject
-Accept: */*
-Cache-Control: no-cache
-X-Requested-With: XMLHttpRequest
-
-<> 2018-12-17T111158.200.json
-
-###
-
-GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/category
-Accept: */*
-Cache-Control: no-cache
-'X-Requested-With': 'XMLHttpRequest'
-
-<> 2018-12-17T111118.200.html
+<> 2018-12-19T032258.200.json
 
 ###
 
 GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person
 Accept: */*
 Cache-Control: no-cache
-'X-Requested-With': 'XMLHttpRequest'
+X-Requested-With: XMLHttpRequest
 
-<> 2018-12-17T111102.200.html
+<> 2018-12-19T032236.404.html
 
 ###
 
-GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/debt
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/digital_campus
 Accept: */*
 Cache-Control: no-cache
-'X-Requested-With': 'XMLHttpRequest'
+X-Requested-With: XMLHttpRequest
 
-<> 2018-12-17T110911.200.html
+<> 2018-12-19T032051.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/expense/group/digital_campus
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-19T092508.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/digital_campus
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T044248.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/digital_campus
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T042850.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/digital_campus
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T042539.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/digital_campus
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T041057.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/test
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T041024.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/digital_campus
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T035237.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/test
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T035116.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/test
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T034946.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/test
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T034842.500.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/test
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T034805.500.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/test
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T034645.500.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/test
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T034523.500.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/test
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T034500.500.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/test
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T034351.500.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/digital_campus
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T034320.500.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person/group/
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T034109.404.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/expense_get
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T025233.404.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/expense
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T025220.500.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/expense
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T025104.500.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/expense
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T023457.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/expense
+
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T023222.200.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/sharegroup/digital_campus
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T103745.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/sharegroup
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T101339.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/sharegroup_get
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T101332.404.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/sharegroup
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T101027.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/sharegroup
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T100945.500.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/sharegroup
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T095509.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/sharegroup_get
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T095228.404.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/share_group_new
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T095207.404.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/share_group
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T095156.404.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/sharegroup
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T095125.404.html
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-18T095112.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
 
 ###
 

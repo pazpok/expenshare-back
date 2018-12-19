@@ -1,5 +1,7 @@
 <?php
 namespace App\Entity;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 /**
  * Person
@@ -30,7 +32,7 @@ class Person
      */
     private $lastname;
     /**
-     * @var \ShareGroup
+     * @var ShareGroup
      *
      * @ORM\ManyToOne(targetEntity="ShareGroup")
      * @ORM\JoinColumns({
@@ -39,6 +41,33 @@ class Person
      */
     private $shareGroup;
 
+    /**
+     * @var Collection
+     *
+     * @ORM\OneToMany(targetEntity="Expense", mappedBy="person")
+     */
+    private $expense;
+
+    public function __construct()
+    {
+        $this->expense = new ArrayCollection();
+    }
+
+    /**
+     * @return Collection
+     */
+    public function getExpense(): Collection
+    {
+        return $this->expense;
+    }
+
+    /**
+     * @param Collection $expens
+     */
+    public function setExpense(Collection $expens): void
+    {
+        $this->expense = $expens;
+    }
     /**
      * @return int
      */
@@ -94,18 +123,18 @@ class Person
     }
 
     /**
-     * @return \ShareGroup
+     * @return ShareGroup
      */
-    public function getShareGroup(): \ShareGroup
+    public function getShareGroup(): ShareGroup
     {
         return $this->shareGroup;
     }
 
     /**
-     * @param \ShareGroup $shareGroup
+     * @param ShareGroup $shareGroup
      * @return Person
      */
-    public function setShareGroup(\ShareGroup $shareGroup): Person
+    public function setShareGroup(ShareGroup $shareGroup): Person
     {
         $this->shareGroup = $shareGroup;
         return $this;
