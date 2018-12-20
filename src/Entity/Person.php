@@ -56,7 +56,7 @@ class Person
     /**
      * @return Collection
      */
-    public function getExpense(): Collection
+    public function getExpense(): ?Collection
     {
         return $this->expense;
     }

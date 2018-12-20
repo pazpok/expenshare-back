@@ -1,3 +1,48 @@
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/category
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-20T105757.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/category
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-20T101351.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/category
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-20T100721.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/category
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-20T095649.200.json
+
+###
+
+GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/expense/group/digital_campus
+Accept: */*
+Cache-Control: no-cache
+X-Requested-With: XMLHttpRequest
+
+<> 2018-12-20T095140.200.json
+
+###
+
 GET http://127.0.0.1/dcdev/CoursDC/Module4/expenshare/expenshare-back/public/person
 Accept: */*
 Cache-Control: no-cache

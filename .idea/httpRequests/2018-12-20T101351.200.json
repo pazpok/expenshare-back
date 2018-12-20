@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "label": "transport",
+    "icon": "car"
+  },
+  {
+    "id": "2",
+    "label": "restaurant",
+    "icon": "utensils"
+  },
+  {
+    "id": "3",
+    "label": "hebergement",
+    "icon": "hotel"
+  },
+  {
+    "id": "4",
+    "label": "sport",
+    "icon": "running"
+  },
+  {
+    "id": "5",
+    "label": "musee",
+    "icon": "video"
+  },
+  {
+    "id": "6",
+    "label": "sortie",
+    "icon": "wine-bottle"
+  }
+]

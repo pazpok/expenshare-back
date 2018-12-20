@@ -16,17 +16,14 @@ class CategoryController extends BaseController
 {
     /**
      * @Route("/", name="category", methods="GET")
-     * @param Request $request
-     * @return Response
      */
     public function index(Request $request): Response
     {
         $category = $this->getDoctrine()->getRepository(Category::class)
-            ->findAll();
+            ->createQueryBuilder('c')
+            ->getQuery()
+            ->getArrayResult();
 
-        if ($request->isXmlHttpRequest()){
-            return $this->json($category);
-        }
-        return $this->render('base.html.twig');
+        return $this->json($category);
     }
 }
