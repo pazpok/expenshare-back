@@ -66,4 +66,23 @@ class ExpenseController extends BaseController
 
         return $this->json($exp[0]);
     }
+
+    /**
+     * @Route("/", name="expense_delete", methods="DELETE")
+     */
+    public function delete(Request $request)
+    {
+        $data = $request->getContent();
+
+        $jsonData = json_decode($data, true);
+
+
+        $expense = $this->getDoctrine()->getRepository(Expense::class)->find($jsonData["expense"]);
+
+        $em = $this->getDoctrine()->getManager();
+        $em->remove($expense);
+        $em->flush();
+
+        return $this->json(["ok" => true]);
+    }
 }

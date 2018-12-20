@@ -32,8 +32,8 @@ class PersonController extends BaseController
     }
 
     /**
-     * @Route("/", name="person_new", methods="POST")
-     */
+ * @Route("/", name="person_new", methods="POST")
+ */
     public function new(Request $request)
     {
         $data = $request->getContent();
@@ -54,5 +54,24 @@ class PersonController extends BaseController
         $em->flush();
 
         return $this->json($this->serialize($person));
+    }
+
+    /**
+     * @Route("/", name="person_delete", methods="DELETE")
+     */
+    public function delete(Request $request)
+    {
+        $data = $request->getContent();
+
+        $jsonData = json_decode($data, true);
+
+
+        $person = $this->getDoctrine()->getRepository(Person::class)->find($jsonData["person"]);
+
+        $em = $this->getDoctrine()->getManager();
+        $em->remove($person);
+        $em->flush();
+
+        return $this->json(["ok" => true]);
     }
 }
